@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  section {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+
+/* page1 start */
+
+  #header {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+    padding-right: 150px;
+  }
+
+  .nav-item {
+    padding-right: 60px;
+  }
+
+  .nav-link {
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .main-background {
+    background: url("/assets/main-bg.jpg")    
+    no-repeat center center;
+    background-size: cover;
+    width: 100%; 
+    height: 100vh;
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+
+  h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .playnow {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .playnow h1 {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Arial';
+  }
+
+  .playnow h2 {
+    font-size: 2em;
+    font-family: 'Arial', cursive;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .playnow a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .playbutton {
+    padding: 0.8em 4em;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .story {
+    padding-bottom: 60px;
+  }
+
+  .story-text {
+    font-size: 0.75em;
+    font-family: 'Open Sans';
+    font-weight: bold;
+  }
+
+/* page1 end */
+
+/* page2 start */
+
+  .second-background {
+    background: url("/assets/the-games-bg.jpg")    
+    no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+
+  .the-games {
+    padding-top: 300px;
+    padding-bottom: 300px;
+  }
+
+  .text-title {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .text-content {
+    font-size: 3em;
+    color: white;
+  }
+
+  .carousel-indicators>li {
+    border-radius: 50%;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+  }
+
+   .carousel-indicators .active {
+    background-color: #fff;
+    background-color: white;
+  }
+
+/* page2 end */
+
+/* page3 start */
+
+  .third-background {
+    background: url("/assets/features.jpg")    
+    no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 570px;
+  }
+
+  #accordion {
+    background-color: transparent;
+  }
+
+  .golden {
+    color: #FFB548;
+    font-size: 1.2rem;
+    padding-left: 0%;
+  }
+
+  .golden:hover {
+    color: gold !important;
+    font-size: 1.2rem !important;
+  }
+
+  .features-text {
+    padding-left: 5% !important;
+  }
+ 
+  .card-header {
+    padding-left: 5%;
+  }
+
+  .card-style {
+    background-color: transparent;
+    color: white;
+
+  }
+
+/* page3 end */
+
+/* page4 start */
+
+  .fourth-background {
+    background: url("/assets/requirements.png")    
+    no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 250px;
+  }
+
+  .sys-title {
+    color: goldenrod;
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  .sys-desc {
+    color: white;
+    font-size: 0.8em;
+  }
+
+  .sysreq-header {
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  .sysreq-header2 {
+    margin-top: 1em;
+    font-size: 3.5em;
+    font-family: 'Arial', cursive;
+    color: white;
+    line-height: 1em;
+  }
+
+  .table-bordered td {
+    border: 1.5px solid rgb(70, 69, 69);
+  }
+
+
+
+
+
+/* page4 end */
+
+/* page5 start */
+
+  .fifth-background {
+    background: url("/assets/top-score-bg.png")    no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .topscores-title {
+    color: white;
+    font-size: 3em;
+  }
+
+  .topscores-text {
+    font-size: 1em;
+    color: white;
+  }
+
+  .topscores-review-style {
+    color: white;
+   }
+
+
+  .review-box {
+    background-color: #191A1B;
+    border-radius: 10px;
+    padding: 5% 5% 1% 5%;
+    margin-bottom: 7%;
+  }
+
+  .reviewer-img {
+    width: 3rem;
+    box-shadow: 5px 5px #FFB548;
+    padding-bottom: 1%;
+  }
+
+  .reviewer-name {
+    color: #FFB548;
+    font-size: 1.5em;
+    margin-bottom: 0.5%;
+  }
+
+  .reviewer-job {
+    font-size: 1em;
+    color: gray;
+  }
+
+  .reviewer-testi {
+    font-size: 1em;
+    color: white;
+  }
+
+  .reviewer-date {
+    font-size: 1em;
+    color: gray;
+  }
+
+
+/* page5 end */
+
